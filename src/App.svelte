@@ -16,7 +16,6 @@
   export let colorWhite;
 	export let customStyleClass = '';
 
-  // API provider - https://covid19api.com/
   const apiUrl = "https://api.covid19api.com/dayone/country";
   const lang = getLang();
   const t = translations[lang];
