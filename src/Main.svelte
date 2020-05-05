@@ -63,15 +63,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 35px 0 0;
     list-style-type: none;
-    margin: 0;
+    margin: 0 35px 0 0;
     padding: 0;
   }
   li {
     font-weight: 100;
   }
-  li + li {
+  li {
     margin-left: 20px;
   }
   ul :global(.up) {
